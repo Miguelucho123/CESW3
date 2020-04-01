@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#index.xhtml" PATH="/index.xhtml"
+  SHAPE="66,60,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#index.xhtml:0" NAME="item"
+   PATH="/index.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="factura::#factura.xhtml" NAME="output"
+    PATH="/factura.xhtml" TARGET="rules:#factura.xhtml" TITLE="factura" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#factura.xhtml" PATH="/factura.xhtml"
+  SHAPE="263,42,0,0" model-entity="JSFProcessGroup" persistent="true"/>
+</PROCESS>
