@@ -43,11 +43,14 @@ public class ConexionBD {
 		}
 	}
 	
+	
 	public static void main (String [] args) {
 		ConexionBD mibd = new ConexionBD();
 		
 		System.out.println(mibd.getConnection());
 		mibd.desconectar();
 	}
+	
+	
 
 }
